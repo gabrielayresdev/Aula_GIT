@@ -1,26 +1,24 @@
-const x = "Gabriel"; 
-const sum = 3;
+const myName = "Gabriel";
+const age = 21;
 
-function Hello() {
-    return "Hello World";
+function sayHello() {
+  return "Hello World";
 }
 
-function hi() {
-    return "Hi"
+function sayHi() {
+  return "Hi";
 }
 
 const authorized = true;
-const notAuthorized = true;
 
-
-if(!authorized) {
-    // faço alguma coisa
+if (authorized) {
+  // faço alguma coisa
+} else {
+  // não faço nada
 }
 
-if(!notAuthorized) {
-    // faço outra coisa
-}
-
-function      create()        {
-    const x = 2 + 2; const y=3; return x+y;
+function sumXY() {
+  const x = 2 + 2;
+  const y = 3;
+  return x + y;
 }
